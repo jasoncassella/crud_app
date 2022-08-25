@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 const cors = require('cors');
-const { response } = require('express');
 const MongoClient = require('mongodb').MongoClient;
 const PORT = process.env.PORT || 8000;
 require('dotenv').config();
@@ -29,9 +28,9 @@ app.use(cors());
 // route
 app.get('/', async (req, res) => {
   try {
-    response.render('index.ejs');
-  } catch (err) {
-    response.status(500).send({ message: error.message });
+    res.render('index.ejs');
+  } catch (error) {
+    res.status(500).send({ message: error.message });
   }
 });
 
