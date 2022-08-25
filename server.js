@@ -16,6 +16,9 @@ MongoClient.connect(dbConnectionString)
     console.log('Connected to database');
     db = client.db(dbName);
     collection = db.collection('movies');
+  })
+  .catch(error => {
+    console.error(error);
   });
 
 // middleware
