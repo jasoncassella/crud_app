@@ -1,0 +1,22 @@
+{
+  "name": "crud_app",
+  "version": "1.0.0",
+  "description": "//1. Initialize npm and install dependencies // express, dotenv, cors, mongodb, ejs, nodemon (--save-dev)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongodb": "^4.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
