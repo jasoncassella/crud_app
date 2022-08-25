@@ -15,11 +15,11 @@
 
 <!-- //----Test Mongo and Port Connection -->
 
-//6. Set middleware
+<!-- //6. Set middleware -->
 
-//8. Create Public and Views folders - add main.js and style.css to Public and index.ejs to Views
+<!-- //8. Create Public and Views folders - add main.js and style.css to Public and index.ejs to Views -->
 
-//9. From root, init local git repo and commit
+<!-- //9. From root, init local git repo and commit -->
 
 //10. Create heroku repo
 
