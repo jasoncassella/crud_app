@@ -1,19 +1,19 @@
-//1. Initialize npm and install dependencies
-// express, dotenv, cors, mongodb, ejs, nodemon (--save-dev)
+<!-- //1. Initialize npm and install dependencies
+// express, dotenv, cors, mongodb, ejs, nodemon (--save-dev) -->
 
-//2. Require dependencies in server.js
+<!-- //2. Require dependencies in server.js -->
 
-//3. Declare variables
+<!-- //3. Declare variables -->
 
-//7. Create gitignore file 
+<!-- //7. Create gitignore file  -->
 
-//4. Connect to MongoDB - add connection string to .env file
+<!-- //4. Connect to MongoDB - add connection string to .env file -->
 
-//5. Add .env and node_modules to gitignore and push to github
+<!-- //5. Add .env and node_modules to gitignore and push to github -->
 
-//5. Create Port
+<!-- //5. Create Port -->
 
-//----Test Mongo and Port Connection
+<!-- //----Test Mongo and Port Connection -->
 
 //6. Set middleware
 
